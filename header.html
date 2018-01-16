@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			body{font-family:"microsoft yahei","微软雅黑";color:#333;font-size:16px}
+			*{padding:0;margin:0}
+			img{width:100%;display:block;border:none;}
+			a{text-decoration:none;color:#333}
+			.nav{width:100%;height:100px;background:#fff;z-index:9999;position:relative;top:0}
+			.nav_content{max-width:1200px;min-width:960px;margin:0 auto}
+			.logo{display:block;width:200px;float:left;margin-top:25px}
+			.nav_ul{float:right}
+			.nav_ul .nav_ul_li{list-style:none;float:left;cursor:pointer;position:relative}
+			.nav_ul .nav_ul_li h3{display:block;height:100px;font-size:16px;font-weight:normal;line-height:100px;padding:0 20px}
+			.nav_li_list{position:absolute;left:0;top:97px;width:100%;background:#f8f9fc;list-style:none;text-align:center;border-top:3px solid #211458;display:none}
+			.nav_li_list li a{display:block;padding:10px 0}
+			.nav_li_list li a:hover{color:#5b42b8}
+		</style>
+	</head>
+
+	<body>
+		<!-- nav -->
+		<div class="nav">
+			<div class="nav_content">
+				<a class="logo" href="index.html"><img src="img/logo.jpg"></a>
+				<ul class="nav_ul">
+					<li class="nav_ul_li">
+						<h3 onclick="window.location = 'index.html'">首页</h3>
+						<ul class="nav_li_list">
+						</ul>
+					</li>
+					<li class="nav_ul_li">
+						<h3 onclick="window.location.assign('about.html#1')">关于我们</h3>
+						<ul class="nav_li_list">
+							<li>
+								<a href="about.html#1">集团简介</a>
+							</li>
+							<li>
+								<a href="about.html#2">组织结构</a>
+							</li>
+							<li>
+								<a href="about.html#3">人才战略</a>
+							</li>
+						</ul>
+					</li>
+					<li class="nav_ul_li">
+						<h3 onclick="window.location.assign('innovation.html#1')">科技创新</h3>
+						<ul class="nav_li_list">
+							<li>
+								<a href="innovation.html#1">科技创新目标</a>
+							</li>
+							<li>
+								<a href="innovation.html#2">自主创新</a>
+							</li>
+							<li>
+								<a href="innovation.html#3">管理团队</a>
+							</li>
+						</ul>
+					</li>
+					<li class="nav_ul_li">
+						<h3 onclick="window.location.assign('news.html')">新闻中心</h3>
+						<ul class="nav_li_list">
+							<li>
+								<a href="news.html">集团动态</a>
+							</li>
+						</ul>
+					</li>
+					<li class="nav_ul_li">
+						<h3 onclick="window.location.assign('industry.html#1')">产业布局</h3>
+						<ul class="nav_li_list">
+							<li>
+								<a href="industry.html#1">光伏电站</a>
+							</li>
+							<li>
+								<a href="industry.html#2">薄膜太阳能</a>
+							</li>
+							<li>
+								<a href="industry.html#3">晶硅太阳能</a>
+							</li>
+							<li>
+								<a href="industry.html#4">应用产品</a>
+							</li>
+						</ul>
+					</li>
+					<li class="nav_ul_li">
+						<h3 onclick="window.location.assign('responsibility.html')">社会责任</h3>
+						<ul class="nav_li_list">
+							<li>
+								<a href="responsibility.html#1">责任理念</a>
+							</li>
+							<li>
+								<a href="responsibility.html#2">节能减排</a>
+							</li>
+							<li>
+								<a href="responsibility.html#3">公益大事记</a>
+							</li>
+						</ul>
+					</li>
+					<li class="nav_ul_li">
+						<h3 onclick="window.location.assign('contactUs.html')">联系我们</h3>
+						<ul class="nav_li_list">
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<script src="js/jquery-1.9.1.min.js"></script>
+		<script>
+			$(function() {
+				$(".nav_ul_li").hover(function() {
+					$(this).find(".nav_li_list").stop().slideDown(300);
+				}, function() {
+					$(".nav_ul_li").find(".nav_li_list").stop().slideUp(200);
+				})
+				
+			})
+		</script>
+	</body>
+
+</html>
