@@ -1,0 +1,103 @@
+﻿[
+	{
+		"NAME": "太阳能组件",
+		"PHOTO": "product_img/yingyong_img1.jpg",
+		"SIZE": "多种规格",
+		"CONFIGURATIONS": "太阳能电池组件",
+		"DETAIL1": "由太阳能电池经过串并联，然后封装形成太阳能电池板。",
+		"DETAIL2": "功能：太阳能电池组件能提供合理稳定的功率输出，是各种光伏系统的基本元素。",
+		"DETAIL3": "用途：广泛应用于太阳能发电系统、照明系统和其他独立供电系统。",
+		"DETAIL4": "规格: 60-280Wp.",
+		"DETAIL5": "产品优点：采用先进的封装技术，整体性能优异，能保证用户使用25年。",
+		"DETAIL6": "用户根据系统设计，可将太阳能电池组件组成各种大小不同的太阳能电池方阵，亦称太阳能电池阵列。"
+	}, {
+		"NAME": "156多晶硅",
+		"PHOTO": "product_img/yingyong_img2.jpg",
+		"SIZE": "156*156mm",
+		"CONFIGURATIONS": "多晶硅电池片",
+		"DETAIL1": "规格：156*156mm",
+		"DETAIL2": "厚度：200±20um",
+		"DETAIL3": "高光伏转换率可达17.3%低反向电流，高并联电阻，高可靠性",
+		"DETAIL4": "正面被深蓝色氮化硅抗反射膜覆盖，色彩和谐，外观良好，此膜具有良好的钝化效果。",
+		"DETAIL5": "正面主栅线镂空设计，增加了电池片表面的光照面积，从而提高了电池片的电流。",
+		"DETAIL6": "背面2.8mm焊接银质衬底，背表区域BSF和电极间高质量粘合以确保高强度拉力增强焊接融合度。"
+	}, {
+		"NAME": "156单晶硅",
+		"PHOTO": "product_img/yingyong_img3.jpg",
+		"SIZE": "156*156mm",
+		"CONFIGURATIONS": "单晶硅电池片",
+		"DETAIL1": "规格：156*156mm",
+		"DETAIL2": "厚度：200±20um",
+		"DETAIL3": "高光伏转换率可达18.5%",
+		"DETAIL4": "低反向电流，高并联电阻，高可靠性",
+		"DETAIL5": "正面被深蓝色氮化硅抗反射膜覆盖，色彩和谐，外观良好，此膜具有良好的钝化效果，正面主栅线镂空设计，增加了电池片表面的光照面积，从而提高了电池片的电流。",
+		"DETAIL6": "背面2.8mm焊接银质衬底，背表区域BSF和电极间高质量粘合以确保高强度拉力增强焊接融合度。"
+	}, {
+		"NAME": "商务通拉卡啦刷卡器",
+		"PHOTO": "product_img/yingyong_img4.jpg",
+		"SIZE": "",
+		"CONFIGURATIONS": "",
+		"DETAIL1": "1）还款：信用卡还款",
+		"DETAIL2": "2）充值：手机充值、支付宝充值码充值、财付通账户充值、游戏充值卡充值、账户充值",
+		"DETAIL3": "3）转账：银行卡转账",
+		"DETAIL4": "4）付款：网购付款、支付宝付款、账单号付款",
+		"DETAIL5": "5）查询：银行卡余额查询、交易查询、网点查询",
+		"DETAIL6": "6）公益捐款",
+		"DETAIL7": "7）提醒：业务提醒、自定义提醒"
+	}, {
+		"NAME": "SP1000",
+		"PHOTO": "product_img/yingyong_img5.jpg",
+		"SIZE": "51*37*5.5mm",
+		"CONFIGURATIONS": "转换效率大于27%",
+		"DETAIL1": "高效砷化镓太阳能电池片",
+		"DETAIL2": "转换效率大于27%",
+		"DETAIL3": "充电电流可达：60mA/4.5V（AM1，1000W/m2）",
+		"DETAIL4": "电池外形尺寸：51*37*5.5mm，容量：700mAh",
+		"DETAIL5": "耐高温：90℃下充电24小时，电池不会膨胀： ",
+		"DETAIL6": "可直接放置在用户手机中，方便实用。",
+		"DETAIL7": "电池在阳光下可直接充电"
+	}, {
+		"NAME": "SC1000",
+		"PHOTO": "product_img/yingyong_img6.jpg",
+		"SIZE": "30PCS",
+		"CONFIGURATIONS": "可拆卸太阳能模组",
+		"DETAIL1": "可拆卸太阳能模组",
+		"DETAIL2": "太阳能模组由30PCS六角硅片组成，还可组合其他图案",
+		"DETAIL3": "光照条件：1000瓦/平方米，AM 1.5",
+		"DETAIL4": "输出：180mA/5V (AM1.5,1000W/m2)",
+		"DETAIL5": "可适合在户外给MP3、手机充电"
+	}, {
+		"NAME": "SF1000",
+		"PHOTO": "product_img/yingyong_img7.jpg",
+		"SIZE": "30PCS",
+		"CONFIGURATIONS": "可组合成其他图案",
+		"DETAIL1": "金属圆环和钢化玻璃增加太阳能片的强度及产品美观",
+		"DETAIL2": "太阳能模组由30PCS六角硅片组成，还可组合其他图案",
+		"DETAIL3": "输出：180mA/5V (AM1.5,1000W/m2)",
+		"DETAIL4": "可适合在户外给MP3、手机充电。"
+	}, {
+		"NAME": "SFB1000",
+		"PHOTO": "product_img/yingyong_img8.jpg",
+		"SIZE": "480*46mm(展开)",
+		"CONFIGURATIONS": "多晶硅板",
+		"DETAIL1": "本产品采用折叠设计，是一款高性能的光电转换产品",
+		"DETAIL2": "展开尺寸：480*460 mm",
+		"DETAIL3": "折叠尺寸：220*150*25 mm",
+		"DETAIL4": "功率：20w",
+		"DETAIL5": "输出电压/电流：18V/1.2A",
+		"DETAIL6": "光能板：多晶硅板",
+		"DETAIL7": "充电时间：约4小时（长短取决于不同的设备）"
+	}, {
+		"NAME": "SMB1000",
+		"PHOTO": "product_img/yingyong_img9.jpg",
+		"SIZE": "100PCS",
+		"CONFIGURATIONS": "12000mAH/3.7V",
+		"DETAIL1": "本产品可智能输出不同的电压和电流",
+		"DETAIL2": "光能板： 14V 2.5W",
+		"DETAIL3": "电池容量：12000mAH/3.7V",
+		"DETAIL4": "功率：60W（最大）",
+		"DETAIL5": "输出电压：5V，9V，16V，19V，22V",
+		"DETAIL6": "输出电流：5V/500 mA ；9V/1000 mA ；16V/3000 mA ；19V/3000mA；22V/3000mA",
+		"DETAIL7": "工作温度：：-10℃-50℃"
+	}
+]
