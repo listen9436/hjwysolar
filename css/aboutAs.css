@@ -1,0 +1,115 @@
+body{font-family:"microsoft yahei","微软雅黑";color:#333;background:#f5f5f5;font-size:16px}
+*{padding:0;margin:0}
+img{width:100%;display:block;border:none;}
+a{text-decoration:none;color:#333}
+.banner{
+	width: 100%;
+	min-width: 960px;
+	max-height: 700px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.banner img{
+	display: none;
+}
+.content{
+	width: 1200px;
+	margin: 10px auto 60px;
+	overflow: hidden;
+}
+.content_left{
+	width: 218px;
+	float: left;
+	margin-right: 20px;
+	text-align: center;
+	background: #fff;
+	overflow: hidden;
+	border: 1px solid #E5E5E5;
+}
+.content_left>h3{
+	font-size: 18px;
+	font-weight: bold;
+	padding: 20px 0;
+}
+.content_left>p{
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	text-align: left;
+	text-indent: 3em;
+	font-size: 14px;
+	color: #333;
+	background: #fff;
+	transition: all linear 0.3s;
+	/*-webkit-transition: all linear 0.3s;
+	-o-transition: all linear 0.2s;
+	-moz-transition: all linear 0.2s;
+	-ms-transition: all linear 0.2s;*/
+	cursor: pointer;
+}
+.content_left .active{
+	background: #f5f5f5;
+	border-left: 2px solid #29166f;
+	color: #291670;
+	font-size: 16px;
+}
+.content_right{
+	width: 958px;
+	float: left;
+	background: #fff;
+	border: 1px solid #E5E5E5;
+}
+.content_right_list{
+	padding: 60px;
+	min-height: 400px;
+	display: none;
+}
+.content_right_list .about_img{
+	display: block;
+	width: 800px;
+	margin: 0 auto 45px;
+}
+.zuzhi .about_img{
+	width: 580px;
+}
+.content_right_list h3{
+	text-align: center;
+	font-weight: 600;
+	font-size: 18px;
+	margin: -10px 0 35px;
+}
+.content_right_list p{
+	margin-bottom: 30px;
+	font-size: 16px;
+	text-align: left;
+	line-height: 30px;
+}
+.content_right_list p a{
+	display: inline-block;
+	margin-left: 35px;
+}
+.content_right_list .rencai_p1{
+	margin-bottom: 15px;
+}
+.content_right_list .rencai_p1 a{
+	margin-left: 0;
+	text-indent: 2em;
+}
+.rencai{
+	background: url(../img/rencai_bg.jpg)no-repeat top;
+}
+
+/* innovation*/
+.keji{
+	padding: 60px 100px;
+	background: url(../img/innovation_img01.jpg)no-repeat top;
+}
+.zizhu{
+	background: url(../img/innovation_img02.jpg)no-repeat top;
+}
+.guanli{
+	padding-bottom: 85px;
+	background: url(../img/innovation_img03.jpg)no-repeat;
+	background-position: 17px 15px;
+}

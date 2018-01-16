@@ -1,0 +1,212 @@
+
+/* 社会责任 */
+body{font-family:"microsoft yahei","微软雅黑";color:#333;background:#fff;font-size:16px}
+*{padding:0;margin:0}
+img{width:100%;display:block;border:0;}
+a{text-decoration:none;color:#333}
+.banner{
+	width: 100%;
+	min-width: 960px;
+	max-height: 700px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.banner img{
+	display: none;
+}
+.content_nav{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: #EEEEEE;
+	text-align: center;
+	position: relative;
+}
+.xiding{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.content_nav a{
+	display: inline-block;
+	padding: 0 20px;
+	color: #333;
+}
+.content_nav a:hover{
+	color: #5b42b8;
+}
+/* 责任理念 */
+.content_linian{
+	width: 100%;
+	background: #fff;
+	padding-top: 60px;
+}
+.linian{
+	width: 1200px;
+	margin: 0 auto;
+}
+.content_title{
+	font-size: 25px;
+	font-weight: 400;
+}
+.content_title span{
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	width: 2px;
+	height: 25px;
+	margin-top: 5px;
+	background: #FF5959;
+}
+.linian_text{
+	width: 100%;
+	height: 330px;
+	margin: 45px auto 0;
+	background: #fff;
+	-webkit-box-shadow: 0px 0px 10px #ccc;
+	-moz-box-shadow: 0px 0px 10px #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.linian_text h1{
+	padding:0 60px;
+	font-size: 30px;
+	font-weight: 400;
+	height: 330px;
+	line-height: 330px;
+	display: inline-block;
+	float: left;
+}
+.linian_text a{
+	display: block;
+	float: left;
+	width: 500px;
+}
+
+/* 节能减排*/
+.content_jieneng{
+	width: 100%;
+	overflow: hidden;
+}
+.jieneng_title{
+	width: 1200px;
+	margin: 60px auto 0;
+}
+.jieneng{
+	width: 100%;
+	margin-top: 45px;
+	background: url(../img/jieneng_bg.jpg)no-repeat;
+	overflow: hidden;
+}
+.jieneng_content{
+	width: 1200px;
+	margin: 50px auto;
+	overflow: hidden;
+}
+.jieneng_img1{
+	display: block;
+	width: 530px;
+	float: left;
+}
+.jieneng_p1{
+	display: block;
+	width: 516px;
+	padding: 40px 75px;
+	margin-top: 20px;
+	line-height: 28px;
+	text-indent: 2em;
+	background: #fff;
+	border-right: 4px solid #29176D;
+	float: left;
+}
+.jieneng_p2{
+	display: block;
+	width: 551px;
+	padding: 40px 75px 40px 40px;
+	margin-top: 100px;
+	line-height: 28px;
+	text-indent: 2em;
+	background: #fff;
+	border-left: 4px solid #29176D;
+	float: left;
+	clear: both;
+	zoom: 1;
+	
+}
+.jieneng_img2{
+	display: block;
+	width: 470px;
+	margin-top: 20px;
+	float: left;
+}
+
+/* 公益事记*/
+.content_gongyi{
+	width: 100%;
+	padding: 60px 0 100px 0;
+	overflow: hidden;
+}
+.gongyi{
+	width: 1200px;
+	margin: 0 auto;
+}
+.gongyi_content{
+	margin-top: 45px;
+	overflow: hidden;
+}
+.gongyi_box{
+	float: left;
+	background: #F7F7F7;
+	overflow: hidden;
+}
+.gongyi_box p{
+	text-indent: 2em;
+	line-height: 30px;
+	margin: 0 auto;
+}
+.gongyi_box a{
+	display: inline-block;
+	width: 100%;
+}
+.gongyi1{
+	padding: 10px;
+	margin-top: 25px;
+	margin-left: 60px;
+}
+.gongyi1 p{
+	width: 420px;
+	margin: 25px auto;
+}
+.gongyi1 a{
+	width: 440px;
+}
+.gongyi2{
+	width: 640px;
+	margin-left: 35px;
+}
+.gongyi2 p{
+	width: 530px;
+	padding: 25px 50px;
+}
+.gongyi3{
+	width: 640px;
+	clear: both;
+	margin-top: 20px;
+}
+.gongyi3 p{
+	width: 530px;
+	padding: 25px 40px;
+}
+.gongyi4{
+	width: 535px;
+	margin-left: 20px;
+}
+.gongyi4 p{
+	width: 470px;
+	margin: 0 auto;
+	padding: 25px;
+}

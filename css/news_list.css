@@ -1,0 +1,50 @@
+body{font-family:"microsoft yahei","微软雅黑";color:#666;background:#f5f5f5;font-size:16px}
+*{padding:0;margin:0}
+img{width:100%;display:block;border:none;}
+.banner{
+	width: 100%;
+	min-width: 960px;
+	max-height: 700px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.banner img{
+	border: none;
+	display: block;
+}
+.news_list_content{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 60px 0 160px;
+	background: #FFFFFF;
+	border: 1px solid #ddd;
+	text-align: center;
+	overflow: hidden;
+}
+#news_title{
+	font-size: 25px;
+	font-weight: 400;
+	color: #333;
+}
+#news_date{
+	font-size: 16px;
+	padding: 15px 0 50px;
+	color: #333;
+}
+#news_content{
+	padding: 0 140px;
+	font-size: 16px;
+	text-indent: 2em;
+	line-height: 28px;
+	color: #666;
+	text-align: left;
+}
+.news_btm{
+	padding-left: 140px;
+	text-align: left;
+	font-size: 14px;
+}
+.news_btm a:hover{
+	cursor: pointer;
+}

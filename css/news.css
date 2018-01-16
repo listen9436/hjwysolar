@@ -1,0 +1,210 @@
+body{font-family:"microsoft yahei","微软雅黑";color:#333;background:#f5f5f5;font-size:16px}
+*{padding:0;margin:0}
+img{width:100%;display:block;border:none;}
+a{text-decoration:none;color:#333}
+.nav{width:100%;height:100px;background:#fff;z-index:9999;position:relative;top:0}
+.nav_content{max-width:1200px;min-width:960px;margin:0 auto}
+.logo{display:block;width:200px;float:left;margin-top:25px}
+.nav_ul{float:right}
+.nav_ul .nav_ul_li{list-style:none;float:left;cursor:pointer;position:relative}
+.nav_ul .nav_ul_li h3{display:block;height:100px;font-size:16px;font-weight:normal;line-height:100px;padding:0 20px}
+.nav_li_list{position:absolute;left:0;top:97px;width:100%;background:#f8f9fc;list-style:none;text-align:center;border-top:3px solid #211458;display:none}
+.nav_li_list li a{display:block;padding:10px 0}
+.nav_li_list li a:hover{color:#5b42b8}
+.banner{
+	width: 100%;
+	min-width: 960px;
+	max-height: 700px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.content_title{
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	text-align: center;
+	overflow: hidden;
+}
+.content_title h2{
+	font-size: 30px;
+	color: #666;
+	font-weight: 400;
+}
+.content_title h2 a{
+	color: #999;
+	font-size: 26px;
+}
+.title_line{
+	display: inline-block;
+	width: 70px;
+	height: 4px;
+	margin-top: 20px;
+	background: #E0E0E0;
+}
+.news_content{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.news_list{
+	width: 100%;
+	height: 120px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background: #E0E0E0;
+	overflow: hidden;
+	cursor: pointer;
+	transition: all ease 0.3s;
+}
+.list_date{
+	float: left;
+	width: 130px;
+	height: 120px;
+	text-align: center;
+	background: #B0B0B0;
+	color: #fff;
+	transition: all ease 0.3s;
+}
+.list_date span{
+	display: inline-block;
+	font-size: 40px;
+	padding-top: 15px;
+}
+.list_date P{
+	font-size: 20px;
+	padding-top: 5px;
+}
+.list_text{
+	float: left;
+	width: 680px;
+	padding: 30px;
+	line-height: 15px;
+}
+.list_text .text_h{
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+.list_text .text_a{
+	font-size: 12px;
+	color: #999;
+}
+.list_icon{
+	float: right;
+	padding: 40px 40px 40px 0;
+	display: block;
+	height: 100%;
+	width: 36px;
+}
+.news_list:hover{
+	background: #fff;
+}
+.news_list:hover .list_date{
+	background: #29166F;
+}
+.news_list:hover .text_h{
+	color: #29166F;
+	font-weight: 600;
+}
+.news_list:hover .text_a{
+	color: #29166F;
+}
+.news_none{
+	display: none;
+}
+
+/*  fenye */
+#fenye{
+	margin-top: 30px;
+	margin-bottom: 80px;
+	width: 100%;
+	height: 35px;
+	text-align: center;
+}
+.whj_jqueryPaginationCss-2{
+    display: inline-block;
+    padding: 0px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.whj_jqueryPaginationCss-2 div{
+    display: inline-block;
+    vertical-align: bottom;
+    height: 33px;
+    line-height: 33px;
+}
+.whj_jqueryPaginationCss-2 .whj_padding{
+    padding: 0px 12px;
+}
+.whj_jqueryPaginationCss-2 .whj_bgc{
+    background-color: #fff;
+    color: #666;
+}
+.whj_jqueryPaginationCss-2 .whj_border{
+    border: 1px solid #ddd;
+}
+.whj_jqueryPaginationCss-2 .whj_color{
+    color: #29166F;
+}
+.whj_jqueryPaginationCss-2 .whj_hover:hover{
+    border: 1px solid #29166F;
+    color: #29166F;
+    cursor: pointer;
+}
+.whj_jqueryPaginationCss-2 .whj_checked{
+	border: 1px solid #29166F;
+    color: #29166F;
+}
+.whj_jqueryPaginationCss-2 .whj_hoverDisable{
+    opacity: 0.7;
+}
+.whj_jqueryPaginationCss-2 div,.whj_jqueryPaginationCss-2 input,.whj_jqueryPaginationCss-2 select{
+    margin:0 2px;
+}
+
+/* footer */
+			
+			.footer {
+				width: 100%;
+				height: 300px;
+				background: #DEDEDE;
+				text-align: center;
+			}
+			
+			.footer_content {
+				padding-top: 80px;
+				list-style: none;
+				display: inline-block;
+			}
+			
+			.footer_list {
+				float: left;
+			}
+			
+			.footer_list>ul {
+				margin-top: -10px;
+				list-style: none;
+			}
+			
+			.footer_list>ul>li {
+				padding: 10px 30px;
+			}
+			
+			.footer_list>ul>li>a:hover {
+				color: #5B42B8;
+			}
+			/* copyright */
+			
+			.copyright {
+				width: 100%;
+				height: 80px;
+				background: #4F4F4F;
+				line-height: 80px;
+				text-align: center;
+				color: #fff;
+				font-size: 14px;
+			}
